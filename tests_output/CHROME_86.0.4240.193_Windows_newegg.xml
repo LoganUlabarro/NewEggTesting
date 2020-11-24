@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="newegg"
+    errors="1" failures="1" hostname="" id="" package="newegg" skipped="0"
+    tests="1" time="54.24" timestamp="">
+  
+    <testcase name="forLoop Computer System Buttons" classname="newegg" time="54.24" assertions="39">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;.page-title-text&gt; to be present for 5000 milliseconds. - expected &#34;found&#34; but got: &#34;not found&#34; (5189ms)">    at Object.forLoop Computer System Buttons (C:\Users\Logan\DevMountain\practiceAutomation\tests\newegg.js:58:22)</failure>
+
+    
+    <error message="Timed out while waiting for element &lt;.page-title-text&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;found&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5189ms)[0m" type="error"><![CDATA[
+        at Object.forLoop Computer System Buttons (C:\Users\Logan\DevMountain\practiceAutomation\tests\newegg.js:58:22)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .click() command on &lt;(//a[@class=&#34;nav-list-link&#34;])[8]&gt;:   (Session info: chrome=86.0.4240.193),  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64); element not interactable
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element not interactable&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=86.0.4240.193)&#34;,&#34;  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)&#34;]},&#34;errorStatus&#34;:11,&#34;error&#34;:&#34;An element command could not be completed because the element is not visible on the page. – element not interactable&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (node:internal/process/task_queues:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
